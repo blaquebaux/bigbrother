@@ -73,5 +73,14 @@ research/   _bigbrother_common.py (loaders + JB/Jensen/M² toolkit) + sketches +
 live/       governed live drivers (once a sleeve graduates to paper A/B)
 ```
 
+
+## Mirage audit (spec sign-stability) — "survives controls" is FRAGILE
+
+Re-estimating the defense alpha across all control subsets ([nullbar/mirage](https://github.com/blaquebaux/nullbar)):
+**+14.6%/yr collapses to +2.3%**, significant in **only 3%** of specs; **industrials (XLI) alone adds +18pp R² while
+killing the alpha** (corr 0.70), with QUAL/USMV/VLUE close behind. The defense "alpha" is largely **industrials + low-vol
++ value beta**. This reinforces the #2 validation's skeptical lean (fails the Bogle hurdle; alpha concentrated post-2021) —
+treat defense exposure as sector/factor beta, not a distinct governed-demand premium.
+
 ## License
 [MIT](LICENSE). (c) 2026 Carter Warrens.
